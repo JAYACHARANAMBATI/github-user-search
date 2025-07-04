@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #f4f4f4;
+  color: #222;
+}
+.container {
+  max-width: 700px;
+  margin: auto;
+  padding: 20px;
+}
+h1 {
+  text-align: center;
+}
+.search-form {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+.search-form input {
+  flex: 1;
+  padding: 10px;
+}
+.search-form button {
+  padding: 10px 16px;
+}
+.error {
+  color: red;
+  text-align: center;
+}
+.profile {
+  display: flex;
+  gap: 24px;
+  background: white;
+  padding: 24px 32px;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08), 0 1.5px 4px rgba(0,0,0,0.04);
+  align-items: center;
+}
+.profile:hover {
+  box-shadow: 0 8px 32px rgba(0,0,0,0.12), 0 3px 8px rgba(0,0,0,0.06);
+}
+.profile img {
+  width: 110px;
+  height: 110px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #eaeaea;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+.profile-details {
+  flex: 1;
+}
+.profile-details h2 {
+  margin: 0 0 8px 0;
+  font-size: 1.6rem;
+  color: #222;
+}
+.profile-details p {
+  margin: 4px 0;
+  color: #555;
+  font-size: 1rem;
+}
+.repos {
+  margin-top: 20px;
+}
+.repos ul {
+  list-style: none;
+  padding: 0;
+}
+.repos li {
+  background: white;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 6px;
+}
+.repos a {
+  font-weight: bold;
+  color: #0366d6;
+  text-decoration: none;
+}
+.cool-gradient {
+  background: linear-gradient(90deg, #007cf0, #00dfd8, #ff0080, #7928ca);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+.repo-card {
+  background: linear-gradient(135deg, #f8fafc 80%, #e0e7ff 100%);
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+  padding: 18px 20px;
+  margin-bottom: 18px;
+  border: 1px solid #eaeaea;
+}
+.repo-card:hover {
+  box-shadow: 0 6px 24px rgba(0,0,0,0.13);
+}
+.repo-card a {
+  font-size: 1.2rem;
+  color: #007cf0;
+  text-decoration: none;
+}
+.repo-card .repo-meta {
+  font-size: 0.95rem;
+  color: #666;
+  margin-top: 6px;
+}
+.repo-card .ai-summary {
+  background: #f1f5f9;
+  border-radius: 8px;
+  padding: 10px 12px;
+  margin-top: 10px;
+  font-size: 0.98rem;
+  color: #222;
+  border-left: 4px solid #00dfd8;
+}
